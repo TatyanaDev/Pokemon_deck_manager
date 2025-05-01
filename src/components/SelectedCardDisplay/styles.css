@@ -1,0 +1,64 @@
+.selected-card {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
+  border: 1px solid #f3f3f3;
+  background-color: #ffffff;
+  padding: 15px 13px 19px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.selected-card-image {
+  margin-bottom: 20px;
+  height: 252px;
+  width: 256px;
+}
+
+.pokemon-info-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.pokemon-info {
+  align-items: center;
+  column-gap: 3px;
+  display: flex;
+}
+
+.pokemon-name {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.pokemon-ability {
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #f3f3f3;
+  padding: 2px 8px 3px;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.pokemon-id {
+  font-family: "Montserrat", sans-serif;
+  color: #bcc4cc;
+  margin-left: 4px;
+  font-weight: 900;
+  font-size: 10px;
+}
+
+.pokemon-additional-info-wrapper {
+  column-gap: 22px;
+  display: flex;
+}
+
+.pokemon-additional-info-wrapper p {
+  font-family: "Montserrat", sans-serif;
+  color: #bcc4cc;
+  font-weight: 900;
+  font-size: 14px;
+}

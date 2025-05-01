@@ -1,0 +1,35 @@
+.card {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.card-image {
+  margin-bottom: 2px;
+  height: 84px;
+  width: 84px;
+}
+
+.sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.drag-image {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.selected {
+  border: 2px solid #7b93ff;
+}
+
+.selected-outline {
+  outline: 2px solid #7b93ff;
+}

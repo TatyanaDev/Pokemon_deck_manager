@@ -1,0 +1,12 @@
+.deck {
+  background-color: #ffffff;
+  padding: 10px 15px 16px;
+  border-radius: 8px;
+  min-height: 167px;
+  min-width: 160px;
+}
+
+.deck-cards {
+  column-gap: 11px;
+  display: flex;
+}

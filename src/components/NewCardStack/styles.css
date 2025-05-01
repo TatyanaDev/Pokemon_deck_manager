@@ -1,0 +1,23 @@
+.stack-wrapper {
+  border-bottom-right-radius: 8px;
+  background-color: #ffffff;
+  max-height: max-content;
+  padding: 9px 15px 21px;
+  position: relative;
+  text-align: center;
+  min-height: 171px;
+  opacity: 1;
+}
+
+.stack-wrapper.empty::before {
+  border-bottom-right-radius: 8px;
+  height: calc(100% - 31px);
+  background: #ffffff;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  content: "";
+  z-index: 5;
+  top: 31px;
+  left: 0;
+}

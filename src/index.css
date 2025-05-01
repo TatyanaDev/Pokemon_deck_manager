@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("./assets/image/pokemon-deck-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/font/Montserrat/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/font/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/font/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.main-title.untitled {
+  color: #bcc4cc;
+}
+
+.main-title::first-letter,
+.sub-title::first-letter,
+.pokemon-name::first-letter,
+.pokemon-info span::first-letter {
+  text-transform: uppercase;
+}

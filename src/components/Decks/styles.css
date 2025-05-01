@@ -1,0 +1,15 @@
+.deck-title-input {
+  color: #000000;
+  outline: none;
+  border: none;
+}
+
+.decks {
+  justify-content: center;
+  position: absolute;
+  column-gap: 15px;
+  display: flex;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+}

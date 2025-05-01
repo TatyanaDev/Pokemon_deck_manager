@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+}
+
+.center-container {
+  width: calc(100vw - 264px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
