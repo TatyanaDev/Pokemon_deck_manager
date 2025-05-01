@@ -1,17 +1,17 @@
 import { useState } from "react";
-import SelectedCardDisplay from "./components/SelectedCardDisplay";
-import NewCardStack from "./components/NewCardStack";
-import Decks from "./components/Decks";
-import "./app.css";
+import SelectedCardDisplay from "../../components/SelectedCardDisplay";
+import NewCardStack from "../../components/NewCardStack";
+import Decks from "../../components/Decks";
+import "./styles.css";
 
-const App = () => {
+const PokemonDeck = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
 
   const handleCardDrop = () => setIsDragging(false);
 
   return (
-    <div className="app">
+    <div className="app-wrapper">
       <NewCardStack onSelect={setSelectedCard} onCardDrop={handleCardDrop} isDragging={isDragging} setIsDragging={setIsDragging} selectedCard={selectedCard} />
       <div className="center-container">
         <SelectedCardDisplay selectedCard={selectedCard} />
@@ -21,4 +21,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PokemonDeck;

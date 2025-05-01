@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Deck from "./Deck";
-import "./styles.css"
+import "./styles.css";
 
 const Decks = ({ onSelect, onCardDrop, selectedCard }) => {
   const [editing, setEditing] = useState(null);
